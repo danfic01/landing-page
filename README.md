@@ -1,2 +1,2 @@
 # landing-page
-sample website landing page layout
+This project is a sample landing page layout created using flexbox.
