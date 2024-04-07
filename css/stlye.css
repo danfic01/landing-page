@@ -80,6 +80,57 @@
     background: gray;
   }
 
+  h3, p {
+    color: #1f2937;
+    margin: 0;
+    padding:4px;
+  }
+  
+  p {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 300;
+  }
+  
+  h3{
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 32px;
+    
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: #ffffff;
+    padding: 32px;
+  }
+  
+  .square {
+    min-width: 100px;
+    min-height: 100px;
+    background: #ffffff;
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+    flex: 0 0 106px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+  }
+  
+  .column {
+    display: flex;
+    flex-basis: 112px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
   .footer {
     display: flex;
     flex-basis: 60px;
