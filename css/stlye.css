@@ -40,6 +40,46 @@
     margin: 0;
   }
 
+  .hero {
+    background: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 300px;
+    padding: 48px 100px;
+    gap: 32px;
+  }
+  
+  .left, .right {
+    flex-basis: 50%;
+    max-width: 375px;
+  }
+  
+  #hero-header {
+    margin: 0;
+  }
+  #hero-subtext {
+    color: #e5e7eb;
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: 8px;
+  }
+  
+  #hero-button {
+    background: #3882f6;
+    font-weight: 800;
+    border-radius: 8px;
+    border: 0;
+    max-width: 100px;
+    padding: 8px;
+  }
+  
+  .placeholder {
+    text-align: center;
+    padding: 80px 25px;
+    background: gray;
+  }
+
   .footer {
     display: flex;
     flex-basis: 60px;
